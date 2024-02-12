@@ -1,6 +1,8 @@
 # About
 This GitHub contains all the extra materials to the thesis "Modeling the effectiveness of treatment for Rheumatoid Arthritis with UPPAAL".
+
 The model directory contains the final complete UPPAAL model for RA. This model contains a variety of protocols. To select a different protocol, it is required to remove the unwanted protocol from the system declarations and add the desired one.
+
 The Tool directory contains all files required to use our tool, except for the UPPAAL installation. UPPAAL can be downloaded from https://uppaal.org/downloads/. Version 4.1.26.1 has been used during the development of the tool.
 
 # Installing the tool 

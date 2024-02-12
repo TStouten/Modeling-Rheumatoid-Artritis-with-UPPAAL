@@ -1,3 +1,8 @@
+# About
+This GitHub contains all the extra materials to the thesis "Modeling the effectiveness of treatment for Rheumatoid Arthritis with UPPAAL".
+The model directory contains the final complete UPPAAL model for RA. This model contains a variety of protocols. To select a different protocol, it is required to remove the unwanted protocol from the system declarations and add the desired one.
+The Tool directory contains all files required to use our tool, except for the UPPAAL installation. UPPAAL can be downloaded from https://uppaal.org/downloads/. Version 4.1.26.1 has been used during the development of the tool.
+
 # Installing the tool 
 
 To use this tool, UPPAAL and Python must be installed on the device. The tool and models should be placed in bin-Windows directory within the UPPAAL installation folder. Once this is done, the tool can be started by running the Rheumatoid Arthritis Modeling Tool (RaMoTo) via launching the python script or via the command line by calling RaMoTo.py by the Python interpreter. 
